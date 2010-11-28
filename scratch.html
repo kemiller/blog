@@ -6,7 +6,7 @@
 		<!-- Spacing: 40 20 10 3 -->
 		<style>
 
-			body { font-family: "Constantia","Garamond",serif; font-size: 12pt; width: 960px; margin: 3px auto 40px auto; height: 2000px; }
+			body { width: 960px; margin: 20px auto 40px auto; height: 2000px; }
 			a { text-decoration: none; color: inherit; }
 			a:hover { border-bottom: 1px solid #7aaff1; } 
 
@@ -14,25 +14,25 @@
 			#header img { margin-top: auto;}
 			#header img#field { position: absolute; left: 200px; }
 
-			#sidebar { width: 160px; text-align: right; margin-right: 40px; font-family: "Gill Sans","Helvetica","Arial",sans-serif; float: left; }
+			#sidebar { width: 160px; text-align: right; margin-right: 40px; font-family: "Gill Sans","Arial",sans-serif; float: left; color: #444; }
 			#sidebar ul { margin-bottom: 40px; padding: 0px; }
 			#sidebar li { list-style-type: none; white-space: nowrap; margin: 0px; }
 			#sidebar img#wheat { margin-top: -20px; }
 			#sidebar a { padding: 0px 1px 0px 2px; }
 
 			#main { width: 600px; float: left; }
-			#main p a { border-bottom: 1px solid #7aaff1; } 
 
-			#main h1,h2,h3 { font-family: "Gill Sans","Helvetica","Arial",sans-serif; text-transform: uppercase; margin-bottom: 20px; }
-			#main h2 { font-size: 14pt;  }
-			#main p { margin-bottom: 40px; line-height: 26px; position: relative; }
+			#main h1,h2,h3 { font-family: "Gill Sans","Arial Black",sans-serif; text-transform: uppercase; margin-bottom: 20px; }
+			#main h2 { font-size: 16pt;  }
+			#main p { margin-bottom: 40px; line-height: 26px; position: relative; font-size: 14pt; font-family: "Georgia",serif; }
+			#main p a { border-bottom: 1px solid #7aaff1; } 
 
 			#main hr { height: 32px; border: 0px; background: #fff url(hr.png) no-repeat scroll center; margin-bottom: 48px; }
 
-			#main .annotation { display: block; position: absolute; left: 600px; top: 0px; width: 160px; margin: 0px 0px 10px 40px; font-family: "Gill Sans","Helvetica","Arial",sans-serif; font-size: 9px; font-weight: bold; line-height: 16px; }
+			#main .annotation { display: block; position: absolute; left: 600px; top: 0px; width: 160px; margin: 0px 0px 10px 40px; font-family: "Gill Sans","Arial Black",sans-serif; font-size: 9px; font-weight: bold; line-height: 16px; color: #2e2e2e; }
 
-			div.code { font-family: "Consolas","Bitstream Vera Mono",monospace; font-size: 9pt; overflow: hidden; background-color: #FFE9CA; padding: 20px; margin: 0px 0px 40px 0px; border: 2px solid #7aaff1; }
-			.gist .gist-file .gist-data pre .line { font-family: "Consolas"; font-size: 8pt; }
+			pre { font-family: "Consolas","Bitstream Vera Mono","Lucida Console","Courier",monospace; font-size: 9pt; overflow: hidden; background-color: #FFE9CA; padding: 20px; margin: 0px 0px 40px 0px; border: 2px solid #7aaff1; }
+			.gist .gist-file .gist-data pre .line { font-family: "Consolas","Bitstream Vera Mono","Lucida Console",monospace; font-size: 8pt; }
 			.gist div.gist-file { margin-bottom: 40px; border: 2px solid #7aaff1; }
 		</style>
 
@@ -94,9 +94,7 @@
 
 			<p>
 			<span class="annotation">Boo!</span>
-			<div class='code'>
-				$ foo bar
-			</div>
+			<pre>$ foo bar</pre>
 			</p>
 
 			<script src="https://gist.github.com/712803.js?file=Tic%20Tac%20Toe%20in%20Haskell.hs"></script>
