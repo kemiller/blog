@@ -1,6 +1,8 @@
+/* @override http://localhost:4000/css/default.css */
 
-body { width: 960px; margin: 20px auto 40px auto; height: 2000px; padding: 0px; }
+body { width: 960px; margin: 20px auto 40px auto; height: 2000px; padding: 0px; background-color: #FFFCF5; color: #003B67; }
 a { text-decoration: none; color: inherit; }
+img { border: 0px; }
 a:hover { border-bottom: 1px solid #7aaff1; } 
 a.plain:hover { border: none; }
 
@@ -8,9 +10,9 @@ a.plain:hover { border: none; }
 #header img { margin-top: auto;}
 #header img#field { position: absolute; left: 200px; }
 
-#sidebar { width: 160px; text-align: right; margin-right: 40px; font-family: "Gill Sans","Arial",sans-serif; float: left; color: #444; }
+#sidebar { width: 160px; text-align: right; margin-right: 40px; font-family: "Gill Sans","Arial",sans-serif; float: left; color: #005B87; }
 #sidebar ul { margin-bottom: 20px; padding: 0px; margin-top: 0px; }
-#sidebar li { list-style-type: none; white-space: nowrap; margin: 0px; }
+#sidebar li { list-style-type: none; white-space: nowrap; margin: 0px; height: 24px; }
 #sidebar a { padding: 0px 1px 0px 2px; }
 
 #main { width: 600px; float: left; padding 0px; margin: 0px; }
@@ -20,14 +22,13 @@ a.plain:hover { border: none; }
 #main h2 { font-size: 14pt;  }
 #main h3 { font-size: 12pt;  }
 
-#main p { margin-bottom: 40px; line-height: 26px; position: relative; font-size: 14pt; font-family: "Georgia",serif; }
+#main p { margin-bottom: 40px; line-height: 30px; position: relative; font-size: 14pt; font-family: "Georgia",serif; width: 480px; }
 #main p a { border-bottom: 1px solid #7aaff1; } 
 
-#main hr { height: 32px; border: 0px; background: #fff url(/images/hr.png) no-repeat scroll center; margin-bottom: 48px; }
+#main hr { height: 32px; border: 0px; background: #FFFCF5 url(/images/hr.png) no-repeat scroll center; margin-bottom: 88px; margin-top:  80px;}
 
-#main .annotation { display: block; position: absolute; left: 600px; top: 0px; width: 160px; margin: 0px 0px 10px 40px; font-family: "Gill Sans","Arial Black",sans-serif; font-size: 9px; font-weight: bold; line-height: 16px; color: #2e2e2e; }
+#main .annotation { display: block; position: absolute; left: 600px; top: 0px; width: 160px; margin: 0px 0px 10px 40px; font-family: "Gill Sans","Arial Black",sans-serif; font-size: 9px; font-weight: bold; line-height: 16px; color: #004B77; }
 
-#main pre { font-family: "Consolas","Bitstream Vera Mono","Lucida Console","Courier",monospace; font-size: 9pt; overflow: hidden; background-color: #FFFAED; padding: 20px; margin: 0px 0px 40px 0px; border: 2px solid #7aaff1; }
-#main .gist .gist-file .gist-data pre .line { font-family: "Consolas","Bitstream Vera Mono","Lucida Console",monospace; font-size: 8pt; background-color: #FFFAED; }
-#main .gist .gist-file .gist-data pre { background-color: #FFFAED !important; }
-#main .gist div.gist-file { margin-bottom: 40px; border: 2px solid #7aaff1; }
+#main pre { font-family: "Consolas","Bitstream Vera Mono","Courier",monospace; font-size: 9pt; overflow: hidden; background-color: #FFF4E8; padding: 20px; margin: 0px 0px 40px 0px; border: 2px solid #7aaff1; }
+#main .highlight pre { padding: 5px; font-size: 8pt; }
+#main .highlight code { font-family: "Consolas","Bitstream Vera Mono","Courier",monospace;  }

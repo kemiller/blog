@@ -3,3 +3,5 @@ auto: true
 
 permalink: pretty
 
+pygments: true
+
